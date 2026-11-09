@@ -3,7 +3,7 @@
 한국어 웹소설 작가를 위한 로컬 집필 프로그램 **StoryWeave**의 Windows 배포 파일과 업데이트 정보를 두는 공개 저장소입니다.
 프로그램 소스 코드는 이곳에 없습니다.
 
-- 내려받기: 이 저장소의 [Releases](https://github.com/godgyu77/StoryWeave-Releases/releases)
+- 내려받기: 이 저장소의 [Releases](https://github.com/godgyu77/StoryWeave-Releases/releases) — 첫 공개 배포는 베타(Pre-release)입니다.
 - 처음 설치하는 방법: [INSTALL.md](INSTALL.md)
 - 버전별 변경 내용: [CHANGELOG.md](CHANGELOG.md)
 
@@ -21,7 +21,7 @@
 - 새 버전이 제대로 시작되지 않으면 원래 버전으로 자동으로 되돌립니다.
 - 작품, 설정, 회차 버전 기록, AI 연결 정보는 업데이트가 건드리지 않습니다.
 
-> **베타 0.1.7·0.1.8을 쓰는 경우:** 이 버전들에는 업데이트 기능이 없습니다. 업데이트 기능이 들어간 첫 버전은 한 번만 직접 받아 설치해야 하고, 그 다음부터 프로그램 안에서 받을 수 있습니다.
+> **베타 0.1.7·0.1.8을 쓰는 경우:** 이 버전들에는 업데이트 기능이 없습니다. 업데이트 기능이 들어간 첫 베타는 한 번만 직접 받아 예전 실행 파일 대신 실행하면 되고, 쓰던 작품과 ChatGPT 로그인은 같은 폴더에 있어 그대로 이어집니다([INSTALL.md](INSTALL.md)). 그 다음부터는 프로그램 안에서 받을 수 있습니다.
 
 ## 버전과 채널
 
@@ -38,7 +38,7 @@
 | `StoryWeave-<버전>-windows-amd64.exe` | 프로그램 파일 (업데이트가 받는 파일) |
 | `storyweave-update.json` | 버전, 채널, 파일 이름·크기·SHA-256, 변경 내용 |
 | `storyweave-update.json.sig` | 위 정보에 대한 배포자의 전자서명 (Ed25519) |
-| `StoryWeave-<버전>-windows-amd64.zip` | 처음 설치용 묶음 (있는 경우) |
+| 그 밖의 파일 (있는 경우) | 안내 문서 등. 업데이트는 위 세 파일만 씁니다 |
 
 프로그램은 GitHub의 정보만 믿지 않습니다. 프로그램 안에 든 공개키로 `storyweave-update.json`의 서명을 먼저 확인하고,
 받은 프로그램 파일의 크기와 SHA-256이 서명된 값과 같을 때만 설치합니다.
